@@ -27,7 +27,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## Coding of button A
-Drag the block `||basic.show LEDs||` into `||variables: set||`
+Drag the block `||basic.show LEDs||` in under `||variables: set||`
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -59,7 +59,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## Coding of button B
-Find a block for `||input.button B||`
+Find a block for `||input.button B||`. **TIP**: Change the letter A to B in the new block.
 
 ```blocks
 input.onButtonPressed(Button.B, function () {
@@ -92,7 +92,7 @@ input.onButtonPressed(Button.B, function () {
 Create the variable `||variables:calculatedTime||`
 
 ## Coding of button B 
-Drag the block `||variables: set calculatedTime til 0||` into `||variables: set endTime to runningTime (ms)||`
+Drag the block `||variables: set calculatedTime til 0||` under `||variables: set endTime to runningTime (ms)||` in the block `||input.button B||`.
 
 ```blocks
 input.onButtonPressed(Button.B, function () {
@@ -254,9 +254,3 @@ input.onButtonPressed(Button.B, function () {
 
 ## Congratulations!
 Your code is ready. Press done!
-
-
-```template
-input.onButtonPressed(Button.A, function () {
-}
-```
