@@ -254,3 +254,8 @@ input.onButtonPressed(Button.B, function () {
 
 ## Congratulations!
 Your code is ready. Press done!
+
+```template
+input.onButtonPressed(Button.A, function () {
+}
+```
